@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {{ partial "head.html" . }}
+<body class="dc-home">
+    <div id="page">
+        {{ partial "header.html" . }}
+        <div id="wrapper">
+            <div id="main">
+                <div id="content">
+                    <div class="sc-content">
+                        {{ block "content" . }}{{ end }}
+                    </div>
+                </div> <!-- End #content -->
+            </div> <!-- End #main -->
+            {{ partial "footer.html" . }}
+        </div> <!-- End #wrapper -->
+    </div> <!-- End #page -->
+</body>
+</html>

@@ -1,0 +1,43 @@
+#top {
+	margin-right: 3em;
+}
+
+#prelude {
+	margin: 1em;
+	margin-left: 3em;
+}
+
+img#lights_switch {
+	height: 80px;
+	width: auto;
+}
+
+#main {
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+}
+
+#wrapper {
+	position: relative;
+}
+
+#sidebar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25%;
+	display: inline-block;
+	border-left: solid thin #aaa;
+	/*box-shadow: 1px 1px 5px #000000;
+	-moz-box-shadow: 1px 1px 5px #000000;
+	-webkit-box-shadow: 1px 1px 5px #000000;*/
+}
+
+#sidebar div div {
+	margin-bottom: 2em;
+}
+#sidebar div div div {
+	margin-bottom: 0;
+}
+

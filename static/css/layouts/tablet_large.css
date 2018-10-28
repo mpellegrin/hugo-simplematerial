@@ -1,0 +1,57 @@
+#top {
+}
+
+#prelude {
+	margin: 1em;
+	margin-left: 3em;
+}
+
+#main {
+	display: block;
+	margin: 0;
+}
+
+img#lights_switch {
+	height: 80px;
+	width: auto;
+}
+
+#sidebar {
+	display: block;
+	/*box-shadow: 1px 1px 5px #000000;
+	-moz-box-shadow: 1px 1px 5px #000000;
+	-webkit-box-shadow: 1px 1px 5px #000000;*/
+	margin: 10px;
+	margin-top: 20px;
+}
+
+#sidebar>div {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar>div>* {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em;
+	width: 23%;
+	margin: 0.5em;
+}
+
+.day-date, #background {
+	display: none;
+}
+
+.post-tags {
+	margin: 0;
+	padding 5px;
+}
+
+.post-content, .post-excerpt, #comments dd, #pings dd, dd.comment-preview {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+h2.post-title {
+	line-height: 1.2em;
+}

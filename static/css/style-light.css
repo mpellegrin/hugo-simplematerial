@@ -1,0 +1,186 @@
+/* ---------------------------------------- */
+/* -               Globals                - */
+/* ---------------------------------------- */
+
+body {
+	background-color: #eee;
+	color: #333;
+}
+
+hr {
+	color: #5793cd;
+	background-color: #5793cd;
+}
+
+a {
+	color: #279ac4;
+}
+
+pre {
+	border-left: 3px solid #000;
+	background-color: #333;
+	color: #eee;
+}
+
+#top {
+	background-color: #333;
+	color: #eee;
+}
+
+#prelude a:hover, #prelude a:focus {
+	border-bottom: 2px solid #eee;
+}
+
+#body a {
+	color: #279AC4;
+}
+
+#body a:hover {
+	color: #279AC4;
+}
+
+#main {
+	background-color: #eee;
+}
+#content {
+	background-color: #fff;
+}
+
+#sidebar {
+	background-color: #fff;
+}
+
+#footer p {
+	background: #e0e0e0;
+	color: #4574a2;
+}
+#footer p a {
+	color: #279ac4;
+}
+
+
+/* Sidebar styles
+-------------------------------------------------------- */
+#sidebar h2 {
+	color: #4574a2;
+}
+#sidebar h3 {
+	color: #279ac4;
+}
+
+
+#sidebar ul {
+	border-top: 1px solid #5793cd;
+}
+#sidebar li {
+	border-bottom: 1px solid #5793cd;
+}
+#sidebar li a {
+	color: #6B6B6B;
+}
+#sidebar li a:hover, #sidebar li a:focus, #sidebar li a:active {
+	color: #4574a2;
+}
+
+
+#q {
+	border: 1px solid #bfbfbf;
+	color: #6b6b6b;
+}
+#search .submit {
+	border: 1px solid #fff;
+	color: #6b6b6b;
+}
+#search .submit:hover {
+	background: #4574a2;
+	color: #fff;
+}
+
+#topnav ul {
+	border-bottom: 1px solid #5793cd;
+}
+
+
+/* Main content styles
+-------------------------------------------------------- */
+
+#subcategories {
+	background: #fbfbfb;
+	border-color: #BFBFBF;
+}
+
+.day-date {
+	color: #279ac4;
+}
+
+.post-title {
+	color:#4574a2;
+}
+.post-title a {
+	color:#4574a2;
+}
+
+.post-info-co {
+	border-color: #bfbfbf;
+	background: #fbfbfb;
+}
+.post-info-co a {
+	color: #2b2b2b;
+}
+
+
+/* Post content
+-------------------------------------------------------- */
+.post-content, .post-excerpt, #comments dd, #pings dd, dd.comment-preview {
+	background: #ffffff;
+}
+
+.post-content blockquote, .post-excerpt blockquote, #comments blockquote {
+	border-left: 4px solid #bfbfbf;
+}
+#comments blockquote {
+	color: #777;
+}
+
+
+/* Comments and trackbacks
+-------------------------------------------------------- */
+#comments h3, #comment-form h3, #pings h3 {
+	border-color: #bfbfbf;
+	background: #fbfbfb;
+}
+
+#comments dd {
+	color:#101010;
+	background-color: #cde0eb;
+}
+#comments dd.me {
+	background-color:#a5d1eb;
+	color:#101010;
+}
+
+.error {
+	background: #ffcccc;
+}
+
+.message {
+	background: #ccccff;
+}
+
+/* Forms
+-------------------------------------------------------- */
+#comment-form input, #comment-form textarea {
+	color: #279ac4;
+	border: 1px solid #cdcdcd;
+}
+
+#comment-form input.preview, #comment-form input.submit {
+	color: #279ac4;
+	background: #fff;
+}
+#comment-form input.preview:hover, #comment-form input.submit:hover {
+	background: #5793CD;
+	color: #fff;
+	border: 1px solid #4574a2;
+}
+

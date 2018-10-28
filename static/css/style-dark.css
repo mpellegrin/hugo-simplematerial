@@ -1,0 +1,186 @@
+/* ---------------------------------------- */
+/* -               Globals                - */
+/* ---------------------------------------- */
+
+body {
+	background-color: #222;
+	color: #eee;
+}
+
+hr {
+	color: #5793cd;
+	background-color: #5793cd;
+}
+
+a {
+	color: #8ec3eb;
+}
+
+pre {
+	border-left: 3px solid #000;
+	background-color: #111;
+	color: #eee;
+}
+
+#top {
+	background-color: #111;
+	color: #eee;
+}
+
+#prelude a:hover, #prelude a:focus {
+	border-bottom: 2px solid #eee;
+}
+
+#body a {
+	color: #279AC4;
+}
+
+#body a:hover {
+	color: #279AC4;
+}
+
+#main {
+	background-color: #222;
+}
+#content {
+	background-color: #333;
+}
+
+#sidebar {
+	background-color: #333;
+}
+
+#footer p {
+	background: #111;
+	color: #8eb6dc;
+}
+#footer p a {
+	color: #8ec3eb;
+}
+
+
+/* Sidebar styles
+-------------------------------------------------------- */
+#sidebar h2 {
+	color: #8eb6dc;
+}
+#sidebar h3 {
+	color: #8ec3eb;
+}
+
+
+#sidebar ul {
+	border-top: 1px solid #5793cd;
+}
+#sidebar li {
+	border-bottom: 1px solid #5793cd;
+}
+#sidebar li a {
+	color: #ccc;
+}
+#sidebar li a:hover, #sidebar li a:focus, #sidebar li a:active {
+	color: #8eb6dc;
+}
+
+
+#q {
+	border: 1px solid #555;
+	color: #ccc;
+}
+#search .submit {
+	border: 1px solid #333;
+	color: #ccc;
+}
+#search .submit:hover {
+	background: #8eb6dc;
+	color: #333;
+}
+
+#topnav ul {
+	border-bottom: 1px solid #5793cd;
+}
+
+
+/* Main content styles
+-------------------------------------------------------- */
+
+#subcategories {
+	background: #444;
+	border-color: #555;
+}
+
+.day-date {
+	color: #8ec3eb;
+}
+
+.post-title {
+	color:#8eb6dc;
+}
+.post-title a {
+	color:#8eb6dc;
+}
+
+.post-info-co {
+	border-color: #555;
+	background: #444;
+}
+.post-info-co a {
+	color: #eee;
+}
+
+
+/* Post content
+-------------------------------------------------------- */
+.post-content, .post-excerpt, #comments dd, #pings dd, dd.comment-preview {
+	background: #333333;
+}
+
+.post-content blockquote, .post-excerpt blockquote, #comments blockquote {
+	border-left: 4px solid #555;
+}
+#comments blockquote {
+	color: #777;
+}
+
+
+/* Comments and trackbacks
+-------------------------------------------------------- */
+#comments h3, #comment-form h3, #pings h3 {
+	border-color: #555;
+	background: #444;
+}
+
+#comments dd {
+	color:#101010;
+	background-color: #cde0eb;
+}
+#comments dd.me {
+	background-color:#a5d1eb;
+	color:#101010;
+}
+
+.error {
+	background: #ffcccc;
+}
+
+.message {
+	background: #ccccff;
+}
+
+/* Forms
+-------------------------------------------------------- */
+#comment-form input, #comment-form textarea {
+	color: #8ec3eb;
+	border: 1px solid #cdcdcd;
+}
+
+#comment-form input.preview, #comment-form input.submit {
+	color: #8ec3eb;
+	background: #333;
+}
+#comment-form input.preview:hover, #comment-form input.submit:hover {
+	background: #5793CD;
+	color: #333;
+	border: 1px solid #8eb6dc;
+}
+

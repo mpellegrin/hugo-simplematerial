@@ -1,0 +1,98 @@
+body {
+	font-size: 1em;
+}
+
+#top {
+	text-align: center;
+}
+
+#top h1 {
+	font-size: 2em;
+}
+
+#prelude {
+	margin: 5px;
+	text-align: center;
+	display: none;
+}
+#prelude span {
+	display: none;
+}
+#prelude a {
+	display: inline-block;
+	width: 90%;
+	text-align: center;
+}
+#prelude a:hover, #prelude a:focus {
+	border: 2px solid #5793CD;
+}
+
+img#lights_switch {
+	height: 64px;
+	width: auto;
+}
+
+#main {
+	display: block;
+	margin: 0;
+}
+
+#content {
+	padding: 0.5em;
+}
+
+#sidebar {
+	display: block;
+	/*box-shadow: 1px 1px 5px #000000;
+	-moz-box-shadow: 1px 1px 5px #000000;
+	-webkit-box-shadow: 1px 1px 5px #000000;*/
+	/*margin: 10px;
+	margin-top: 20px;*/
+}
+
+#sidebar>div {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar>div>* {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1em;
+	/*width: 98%;*/
+	/*margin: 0.5em;*/
+}
+
+.day-date, #background {
+	display: none;
+}
+
+.post-tags {
+	margin: 0 0 10px;
+	padding 5px;
+}
+
+.post {
+	margin: 0;
+}
+
+.post h1, .post h2, .post h3 {
+	line-height: 1.2em;
+}
+
+.post-content, .post-excerpt, #comments dd, #pings dd, dd.comment-preview {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+h2.post-title {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	padding-bottom: 0.75em;
+}
+
+.post-info, .post-tags {
+	display: none;
+}
+
